@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class="divesq"></div>
+      <div class="divdir">
+        <h2>Create an Account!</h2>
+        <form action="" id="formulario" method="post">
+        <ul> 
+          <li>
+            <input type="text" name="first_name" required placeholder="First Name" class="half first_name">
+            <input type="text" name="phone" required  placeholder="Phone" id="telefone" class="half telefone">
+          </li>
+          <li>
+             <input type="email" name="email" required placeholder="Email Address" class="email"> 
+          </li>
+
+          <li>
+             <input type="password" required name="password" placeholder="Password" class="half password" />
+             <input type="password" required name="repeat_password" placeholder="Repeat Password" class="half r_password" />
+          </li>
+          <li>
+            <input type="submit" class="register" id="register" value="Register Account">
+          </li>
+
+          <hr>
+
+          <li>
+            <a href="#" class="register google"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z" fill-rule="evenodd" clip-rule="evenodd"/></svg>Register with Google</a>
+          </li>
+          <li>
+            <a href="#" class="register facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>Register with Facebook</a>
+          </li>
+
+          <hr>
+          
+          <li class="outroslink">
+            <a href="#">Forgot Password?</a>
+          </li>
+          <li class="outroslink">
+            <a href="#">Already have an account? Login!</a>
+          </li>
+         
+        </ul>
+         </form>
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>
